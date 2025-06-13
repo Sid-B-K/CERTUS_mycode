@@ -278,6 +278,10 @@ average rate: 9.979
   <img src="figures/curvelanedet1.png" alt="Curve Lane Detection 2" width="48%">
 </p>
 
+`rosrun sd_robot curve_lane_follower.py`
+
+<img src="figures/goalpos.png" alt="Curve Lane Detection 2" width="48%">
+
 ## Notes
 * Ensure all necessary dependencies are sourced (source devel/setup.bash).
 * Some files may require execution permissions or format conversion (chmod +x, dos2unix).
