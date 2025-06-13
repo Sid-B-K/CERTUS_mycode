@@ -185,6 +185,72 @@ rostopic hz /lane_waypoints
 rostopic hz /sd_control
 
 ```
+#### /lane_detection/image
+
+```bash
+subscribed to [/lane_detection/image]
+WARNING: may be using simulated time
+average rate: 9.554
+  min: 0.070s max: 0.131s std dev: 0.02091s window: 7
+average rate: 9.240
+  min: 0.070s max: 0.131s std dev: 0.01600s window: 14
+average rate: 9.403
+  min: 0.070s max: 0.140s std dev: 0.01793s window: 21
+average rate: 8.796
+  min: 0.070s max: 0.154s std dev: 0.02163s window: 27
+average rate: 8.709
+  min: 0.070s max: 0.154s std dev: 0.02254s window: 34
+average rate: 8.611
+  min: 0.070s max: 0.154s std dev: 0.02186s window: 40
+average rate: 8.521
+  min: 0.070s max: 0.154s std dev: 0.02082s window: 46
+average rate: 8.532
+  min: 0.070s max: 0.154s std dev: 0.02055s window: 50
+```
+#### /lane_waypoints
+```bash
+subscribed to [/lane_waypoints]
+WARNING: may be using simulated time
+average rate: 8.559
+  min: 0.098s max: 0.148s std dev: 0.02015s window: 7
+average rate: 8.276
+  min: 0.070s max: 0.167s std dev: 0.02572s window: 13
+average rate: 8.197
+  min: 0.070s max: 0.167s std dev: 0.02527s window: 19
+average rate: 8.112
+  min: 0.070s max: 0.185s std dev: 0.02767s window: 26
+average rate: 8.147
+  min: 0.070s max: 0.185s std dev: 0.02806s window: 32
+average rate: 8.149
+  min: 0.070s max: 0.185s std dev: 0.02678s window: 39
+average rate: 8.152
+  min: 0.070s max: 0.185s std dev: 0.02613s window: 41
+```
+#### /sd_control
+```bash
+subscribed to [/sd_control]
+WARNING: may be using simulated time
+average rate: 9.960
+  min: 0.097s max: 0.104s std dev: 0.00273s window: 6
+average rate: 9.954
+  min: 0.082s max: 0.114s std dev: 0.00677s window: 14
+average rate: 9.995
+  min: 0.082s max: 0.114s std dev: 0.00570s window: 21
+average rate: 9.979
+  min: 0.082s max: 0.114s std dev: 0.00515s window: 29
+average rate: 9.989
+  min: 0.082s max: 0.114s std dev: 0.00484s window: 37
+average rate: 9.991
+  min: 0.082s max: 0.114s std dev: 0.00450s window: 45
+average rate: 9.994
+  min: 0.081s max: 0.122s std dev: 0.00587s window: 52
+average rate: 9.988
+  min: 0.081s max: 0.122s std dev: 0.00558s window: 59
+average rate: 9.988
+  min: 0.081s max: 0.122s std dev: 0.00532s window: 68
+average rate: 9.979
+  min: 0.081s max: 0.122s std dev: 0.00533s window: 69
+```
 
 ## Curve lane detection
 `rosrun sd_robot curvelane_node.py`
