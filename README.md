@@ -82,6 +82,9 @@ rosrun map_server map_saver -f my_map
 rosrun map_server map_server largemap.yaml
 
 ```
+<img src="figures/map.png" alt="world" width="50%"/>
+
+
 Visualize the TF tree:
 
 ```bash
