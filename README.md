@@ -4,6 +4,13 @@ This repository contains code and instructions for working with the [Aslan auton
 
 ---
 
+## Requirements
+
+* Ubuntu 18.04 LTS
+* ROS 1 Melodic [ros-melodic-desktop-full](https://wiki.ros.org/melodic/Installation/Ubuntu)
+* Catkin Command Line Tools [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html)
+* Python 2
+
 ## Aslan Setup
 
 Clone and enter the [Aslan repo](https://github.com/project-aslan/Aslan?tab=readme-ov-file):
