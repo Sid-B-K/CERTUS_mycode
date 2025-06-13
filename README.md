@@ -28,6 +28,27 @@ roslaunch sd_robot sd_twizy_worlds.launch world:=car_1_junction
 /sd_twizy/front_center_camera/image_raw
 ```
 
+## Worlds
+
+### `harbour world`
+<img src="figures/world.png" alt="world" width="50%"/>
+
+---
+
+### `lane world`
+<img src="figures/laneworld.png" alt="laneworld" width="50%"/>
+
+---
+
+### `cloverleaf junction world`
+<img src="figures/cloverleaf-junction.png" alt="cloverleaf-junction" width="50%"/>
+
+---
+
+### `mcity world`
+<img src="figures/Mcity.png" alt="Mcity" width="50%"/>
+
+
 ## Mapping (SLAM-based) 
 
 Launch required processes to generate a 2D occupancy grid map using GMapping:
@@ -68,6 +89,13 @@ rosrun rqt_tf_tree rqt_tf_tree
 
 ```
 
+### `NDTmapping`
+<p>
+  <img src="figures/pc1.png" alt="NDTmapping 1" width="48%" style="margin-right: 5%;">
+  <img src="figures/pc2.png" alt="NDTmapping 2" width="35%">
+</p>
+
+
 ## Octomap and NDT Mapping (3D Mapping using pointclouds)
 Use pointcloud data for volumetric 3D mapping:
 
@@ -92,6 +120,15 @@ rosrun octomap_server octomap_saver -f /path/to/save/your_map.ot
 rosrun octomap_server octomap_server_node map.ot
 
 ```
+
+### `Octomap Views`
+
+<p>
+  <img src="figures/octomap.png" alt="Octomap" width="32%" style="margin-right: 2%;">
+  <img src="figures/octomap1.png" alt="Octomap 1" width="32%" style="margin-right: 2%;">
+  <img src="figures/octomap2.png" alt="Octomap 2" width="32%">
+</p>
+
 
 ## Lane Detection
 Set up the environment and run lane detection algorithms:
@@ -128,6 +165,16 @@ rosrun sd_robot lane_follower_node.py
 rosrun sd_robot waypoint_follower_node.py
 
 ```
+
+
+### `houghtransform lane lines`
+<img src="figures/houghtransform.png" alt="Hough Transform" width="50%"/>
+
+---
+
+### `accurate_waypoint detection`
+<img src="figures/accurate_waypoint.png" alt="Accurate Waypoint" width="50%"/>
+
 Monitor key topics:
 ```bash
 # Monitor image processing frequency
