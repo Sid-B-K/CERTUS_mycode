@@ -187,9 +187,9 @@ rostopic hz /sd_control
 ```
 
 ## Curve lane detection
-
+`rosrun sd_robot curvelane_node.py`
 <p>
-  <img src="figures/curvelanedet.png" alt="Curve Lane Detection 1" width="48%" style="margin-right: 2%;">
+  <img src="figures/curvelanedet.png" alt="Curve Lane Detection 1" width="44%" style="margin-right: 2%;">
   <img src="figures/curvelanedet1.png" alt="Curve Lane Detection 2" width="48%">
 </p>
 
