@@ -286,3 +286,12 @@ average rate: 9.979
 * Ensure all necessary dependencies are sourced (source devel/setup.bash).
 * Some files may require execution permissions or format conversion (chmod +x, dos2unix).
 * Adjust paths if running on a different system or directory structure.
+---
+
+## Author
+### Sidharth B Kamtam
+PhD Research Scholar
+
+Intelligent Mobility and Control, Centre for Future Transport and Cities (CFTC), Coventry University.
+
+Elm Bank, Mile Lane, Coventry, CV1 2LQ, United Kingdom.
