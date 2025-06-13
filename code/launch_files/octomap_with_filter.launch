@@ -1,0 +1,33 @@
+<launch>
+  <!-- VoxelGrid Filter Node -->
+  <node pkg="pcl_ros" type="voxel_grid" name="voxel_filter" output="screen">
+    <remap from="cloud_in" to="/points_raw"/>
+    <remap from="cloud_out" to="/filtered_points"/>
+
+    <param name="leaf_size" value="0.1"/> <!-- Adjust for desired resolution -->
+  </node>
+
+  <!-- PassThrough Filter Node (for ground removal) -->
+  <node pkg="pcl_ros" type="passthrough" name="passthrough_filter" output="screen">
+    <remap from="cloud_in" to="/filtered_points"/>
+    <remap from="cloud_out" to="/no_ground_points"/>
+
+    <param name="filter_field_name" value="z"/>
+    <param name="filter_limit_min" value="0.2"/>  <!-- Raise to remove more ground -->
+    <param name="filter_limit_max" value="2.0"/>
+    <param name="filter_limit_negative" value="false"/>
+  </node>
+
+  <!-- Octomap Server Node -->
+  <node pkg="octomap_server" type="octomap_server_node" name="octomap_server" output="screen">
+    <param name="resolution" value="0.1"/>
+    <param name="frame_id" value="map"/>
+    <param name="sensor_model/max_range" value="100.0"/>
+
+    <!-- Feed filtered point cloud -->
+    <remap from="cloud_in" to="/no_ground_points"/>
+  </node>
+
+  <!-- Relay /projected_map to /map -->
+  <node pkg="topic_tools" type="relay" name="map_relay" args="projected_map /map"/>
+</launch>
