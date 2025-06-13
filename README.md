@@ -88,13 +88,7 @@ Visualize the TF tree:
 rosrun rqt_tf_tree rqt_tf_tree
 
 ```
-
-### `NDTmapping`
-<p>
-  <img src="figures/pc1.png" alt="NDTmapping 1" width="48%" style="margin-right: 5%;">
-  <img src="figures/pc2.png" alt="NDTmapping 2" width="35%">
-</p>
-
+<img src="figures/rqttree.png" alt="world" width="100%"/>
 
 ## Octomap and NDT Mapping (3D Mapping using pointclouds)
 Use pointcloud data for volumetric 3D mapping:
@@ -120,6 +114,12 @@ rosrun octomap_server octomap_saver -f /path/to/save/your_map.ot
 rosrun octomap_server octomap_server_node map.ot
 
 ```
+
+### `NDTmapping`
+<p>
+  <img src="figures/pc1.png" alt="NDTmapping 1" width="48%" style="margin-right: 5%;">
+  <img src="figures/pc2.png" alt="NDTmapping 2" width="35%">
+</p>
 
 ### `Octomap Views`
 
