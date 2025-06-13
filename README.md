@@ -64,6 +64,11 @@ roslaunch sd_robot pointcloud_to_laserscan.launch
 roslaunch sd_robot gmapping.launch
 
 ```
+<p>
+  <img src="figures/pointcloud.png" alt="Pointcloud" width="45%" style="margin-right: 5%;">
+  <img src="figures/laserscan.png" alt="Laserscan" width="45%">
+</p>
+
 Control the simulated vehicle:
 
 ```bash
@@ -72,6 +77,9 @@ cd /home/sid/Aslan/src/vehicle_simulation/gazebo/sd_twizy_model/streetdrone_mode
 ./keyboardlaunch.sh
 
 ```
+<img src="figures/control.png" alt="world" width="40%"/>
+
+
 Save and load the map:
 
 ```bash
@@ -144,6 +152,7 @@ roslaunch sd_robot sd_twizy_worlds.launch world:=car_1_junction
 /sd_twizy/front_center_camera/image_raw
 
 ```
+<img src="figures/lane.png" alt="lane" width="50%"/>
 
 Start localizer and transformations:
 ```bash
