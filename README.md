@@ -35,12 +35,12 @@ roslaunch sd_robot sd_twizy_worlds.launch world:=car_1_junction
 
 ---
 
-### `lane world`
+### `lane junction world`
 <img src="figures/laneworld.png" alt="laneworld" width="50%"/>
 
 ---
 
-### `cloverleaf junction world`
+### `cloverleaf track world`
 <img src="figures/cloverleaf-junction.png" alt="cloverleaf-junction" width="50%"/>
 
 ---
@@ -185,6 +185,13 @@ rostopic hz /lane_waypoints
 rostopic hz /sd_control
 
 ```
+
+## Curve lane detection
+
+<p>
+  <img src="figures/curvelanedet.png" alt="Curve Lane Detection 1" width="48%" style="margin-right: 2%;">
+  <img src="figures/curvelanedet1.png" alt="Curve Lane Detection 2" width="48%">
+</p>
 
 ## Notes
 * Ensure all necessary dependencies are sourced (source devel/setup.bash).
