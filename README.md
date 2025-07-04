@@ -11,6 +11,14 @@ This repository contains code and instructions for working with the [Aslan auton
 * Catkin Command Line Tools [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html)
 * Python 2
 
+## My Installment
+
+Install WSL2 - Ubuntu 18.04 (with GUI) [link](https://www.youtube.com/watch?v=7Sym3uL6YWo)
+
+Start the remote GUI session - `sudo /etc/init.d/xrdp start`
+
+Open remote desktop and connect to - `localhost:3390`
+
 ## Aslan Setup
 
 Clone and enter the [Aslan repo](https://github.com/project-aslan/Aslan?tab=readme-ov-file):
