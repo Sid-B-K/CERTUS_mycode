@@ -150,9 +150,9 @@ rosrun octomap_server octomap_server_node map.ot
 ### `Octomap Views`
 
 <p>
-  <img src="figures/octomap.png" alt="Octomap" width="32%" style="margin-right: 2%;">
-  <img src="figures/octomap1.png" alt="Octomap 1" width="32%" style="margin-right: 2%;">
-  <img src="figures/octomap2.png" alt="Octomap 2" width="32%">
+  <img src="figures/octomap.png" alt="Octomap" width="50%" style="margin-right: 2%;">
+  <img src="figures/octomap1.png" alt="Octomap 1" width="50%" style="margin-right: 2%;">
+  <img src="figures/octomap2.png" alt="Octomap 2" width="50%">
 </p>
 
 
