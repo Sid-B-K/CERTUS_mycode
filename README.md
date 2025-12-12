@@ -290,6 +290,17 @@ average rate: 9.979
 
 <img src="figures/goalpos.png" alt="Curve Lane Detection 2" width="48%">
 
+## A-star Path Planning
+
+Given the goal position, plan the vehicle's path.
+
+`rosrun sd_robot pathplan.py`
+
+<p>
+  <img src="figures/path2.png" alt="Curve Lane Detection 1" width="40%" style="margin-right: 2%;">
+  <img src="figures/path5.png" alt="Curve Lane Detection 2" width="60%">
+</p>
+
 ## Notes
 * Ensure all necessary dependencies are sourced (source devel/setup.bash).
 * Some files may require execution permissions or format conversion (chmod +x, dos2unix).
