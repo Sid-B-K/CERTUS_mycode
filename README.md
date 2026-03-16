@@ -1,6 +1,97 @@
-# CERTUS_mycode
+---
+
+# CERTUS Project
 
 This repository contains code and instructions for working with the [Aslan autonomous driving simulator](https://github.com/project-aslan/Aslan?tab=readme-ov-file), custom worlds, SLAM mapping, Octomap/NDT mapping, and lane detection for a simulated Twizy vehicle.
+
+---
+
+## About Project CERTUS
+
+CERTUS is a collaborative research project focused on improving the **verification and validation of automated driving systems (ADS)** using advanced simulation technologies.
+
+The project aims to accelerate the safe development of self-driving vehicles by combining **digital simulation, scenario-based testing, and data-driven validation techniques**.
+
+As automated driving systems become increasingly complex, traditional validation methods that rely on millions of miles of physical testing are no longer practical. CERTUS addresses this challenge by developing **simulation-driven validation frameworks** that reduce testing time while maintaining safety assurance.
+
+The **£2.7 million project** aims to reduce the time required to validate automated driving systems by **up to 40%**, enabling faster deployment of autonomous technologies while reducing development costs.
+
+Simulation will complement physical testing rather than replace it, forming a key component of a **multi-pillar testing strategy**.
+
+---
+
+## Collaborators
+
+Project CERTUS brings together a consortium of industry and academic partners:
+
+- **Lead:** Horiba MIRA Ltd  
+- Connected Places Catapult  
+- Coventry University  
+- IPG Automotive Ltd  
+- Polestar Automotive UK Ltd  
+
+---
+
+## Coventry University's Role
+
+Coventry University contributes expertise in **simulation technologies and intelligent mobility systems** to support the development of tools for testing automated driving technologies.
+
+Key contributions include:
+
+- Development of **simulation environments and scenarios** for autonomous vehicle testing
+- Supporting **verification and validation workflows**
+- Contributing to **test scenario generation and analysis**
+- Supporting **dissemination and industry engagement** with regulators, standards bodies, and automotive stakeholders
+
+---
+
+## Project Objectives
+
+Automated driving systems introduce significant **software, hardware, and integration complexity**, making traditional validation approaches impractical due to the enormous number of scenarios required for testing.
+
+CERTUS addresses these challenges by answering three fundamental questions:
+
+**1. What to test?**  
+Identify the most critical scenarios that stress automated driving systems.
+
+**2. How to test?**  
+Develop simulation-driven and scenario-based testing approaches.
+
+**3. When to stop testing?**  
+Use risk quantification and performance metrics to determine sufficient validation coverage.
+
+The project introduces **data-driven analytics and iterative scenario selection** to ensure testing focuses on areas where system confidence is lowest.
+
+Additionally, **oracles** analyse test results to provide insights into system safety, robustness, and performance.
+
+---
+
+## Impact
+
+CERTUS aims to significantly improve the development pipeline for automated driving technologies.
+
+Key expected impacts include:
+
+- Reducing the **£8 billion spent annually** on automated vehicle testing
+- Accelerating **validation timelines by up to 40%**
+- Enabling **faster market deployment of automated driving technologies**
+- Providing **objective safety and risk evaluation tools**
+- Supporting regulators, insurers, and manufacturers in understanding system safety
+
+The project is backed by the **Centre for Connected and Autonomous Vehicles (CCAV)** and delivered in partnership with **Innovate UK**.
+
+---
+
+## Project Links
+
+- Coventry University Project Page  
+  https://www.coventry.ac.uk/research/research-directories/projects/2023/certus/
+
+- Horiba MIRA CERTUS Page  
+  https://www.horiba-mira.com/certus/
+
+- Innovate UK Business Connect  
+  https://iuk-business-connect.org.uk/projects/connected-automated-mobility/certus/
 
 ---
 
