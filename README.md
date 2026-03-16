@@ -2,7 +2,7 @@
 
 # CERTUS Project
 
-This repository contains code and instructions for working with the [Aslan autonomous driving simulator](https://github.com/project-aslan/Aslan?tab=readme-ov-file), custom worlds, SLAM mapping, Octomap/NDT mapping, and lane detection for a simulated Twizy vehicle.
+This repository contains 3D path planning code and instructions for working with the [Aslan autonomous driving simulator](https://github.com/project-aslan/Aslan?tab=readme-ov-file), custom worlds, SLAM mapping, Octomap/NDT mapping, and lane detection for a simulated Twizy vehicle.
 
 ---
 
